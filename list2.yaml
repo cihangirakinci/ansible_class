@@ -1,0 +1,23 @@
+--- #indicate of Begining of YAML
+
+cars:
+  - tesla
+  - lexus
+  - toyota
+
+colors:
+  - white
+  - black
+  - red
+  - blue
+
+car:
+  model:
+    - teslax
+    - teslay
+    - teslas
+  color:
+    - white
+    - red
+  location:
+    - chicago

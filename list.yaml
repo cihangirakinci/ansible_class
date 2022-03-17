@@ -1,0 +1,18 @@
+--- # Begining of yaml file
+# Grocery List
+
+dairy:
+  milk: "2"
+  egg: "12"
+
+bakery:
+  bread: "1"
+  donuts: "12"
+
+meat:
+  chicken: "9"
+  beaf: "5"
+
+register:
+  donuts: "2"
+

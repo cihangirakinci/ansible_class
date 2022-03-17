@@ -1,0 +1,11 @@
+--- # Indicates the begining of YAML file
+# Testing
+# Variable "a" = 
+a: "apple"
+
+cost1: "1"
+
+cost2: "2"
+
+cost3: "3"
+
