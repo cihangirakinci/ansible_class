@@ -1,0 +1,12 @@
+---
+- name: Install Required Packages
+  hosts: localhost
+  tasks: 
+    - name: Install vim, tree, wget and curl
+      yum:
+        name:
+          - vim
+          - tree
+          - wget
+          - curl
+        state: latest
