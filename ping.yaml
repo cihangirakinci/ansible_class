@@ -1,0 +1,6 @@
+--- # dash meaning it is 
+- name: Ping Servers
+  hosts: localhost
+  tasks: 
+    - name: Ping
+      ping: #module
