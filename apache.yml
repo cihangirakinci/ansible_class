@@ -1,0 +1,12 @@
+---
+- name: Set up an httpd webserver
+  hosts: localhost
+  tasks:
+    - name: Install Apache Packages
+      yum:
+        name: httpd
+        state: latest
+    - name: Ensure httpd is enabled
+      service: 
+        name: httpd
+        state: started
